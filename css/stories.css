@@ -11,7 +11,9 @@ section{
     margin-top: 150px;
 }
 section h1{
-    font-size: 35px;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
 }
 blockquote{
     color: rgb(150, 130, 107);
@@ -31,6 +33,10 @@ div{
 
 div p{
     font-size: smaller;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    line-height: 1.25em;
 }
 
 div img {
@@ -43,9 +49,24 @@ div img {
 #main-nav a{
     margin: auto 60px;
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
 #main-nav{
     margin-top: 50px;
+}
+
+div img:hover{
+    border: solid rgb(189, 186, 186) 3px;
+    
+}
+
+div h2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+#main-nav a:hover{
+    color: rgb(148, 148, 59);
+    box-shadow: 2px 5px 5px  rgb(238, 229, 229);
 }
