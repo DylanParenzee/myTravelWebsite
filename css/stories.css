@@ -70,3 +70,7 @@ div h2{
     color: rgb(148, 148, 59);
     box-shadow: 2px 5px 5px  rgb(238, 229, 229);
 }
+
+.wrapper{
+    max-width: 100%;
+}
